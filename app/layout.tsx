@@ -8,13 +8,13 @@ import ActiveStatus from './components/ActiveStatus';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Nexus - Your Ultimate Chat Experience',
+  title: 'Message And Mingle - Your Ultimate Chat Experience',
   description:
-    'Nexus is a revolutionary chat application that transcends traditional messaging. Immerse yourself in rich, dynamic conversations, collaborate effortlessly, and forge meaningful connections with friends and colleagues. Join Nexus today and experience a new era of communication.',
+    'Message And Mingle is a revolutionary chat application that transcends traditional messaging. Immerse yourself in rich, dynamic conversations, collaborate effortlessly, and forge meaningful connections with friends and colleagues. Join Message And Mingle today and experience a new era of communication.',
   keywords: [],
   twitter: {
     card: 'summary_large_image',
-    creator: '@yodkwtf',
+    creator: '@mondalbidisha',
   },
 };
 
