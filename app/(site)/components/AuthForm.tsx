@@ -72,7 +72,7 @@ const AuthForm = () => {
           }
 
           if (res?.ok && !res?.error) {
-            toast.success('Entering Nexus!');
+            toast.success('Entering Message And Mingle!');
             router.push('/users');
           }
         })
@@ -92,14 +92,14 @@ const AuthForm = () => {
         }
 
         if (res?.ok && !res?.error) {
-          toast.success('Entering Nexus!');
+          toast.success('Entering Message And Mingle!');
         }
       })
       .finally(() => setIsLoading(false));
   };
 
   return (
-    <section className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+    <section className="mt-8 sm:mx-auto sm:w-full sm:max-w-lg">
       <div className="bg-white px-4 py-8 shadow sm:rounded-lg sm:px-10">
         {/* Auth Form (Login/Register) */}
         <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
@@ -171,7 +171,7 @@ const AuthForm = () => {
           <span>
             {variant === 'REGISTER'
               ? 'Already have an account?'
-              : 'New to Nexus?'}
+              : 'New to Message And Mingle?'}
           </span>
           <button
             type="button"

@@ -66,7 +66,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
         <div className="space-y-12">
           <div className="border-b border-gray-900/10 pb-12">
             <h2 className="text-base font-semibold leading-7 text-gray-900">
-              Profile
+              User Profile
             </h2>
 
             <p className="mt-1 text-sm leading-6 text-gray-600">
@@ -85,7 +85,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
 
               <div>
                 <label className="block text-sm font-medium leading-6 text-gray-900">
-                  Photo
+                  Profile Picture
                 </label>
                 <div className="mt-2 flex items-center gap-x-3">
                   <Image
@@ -101,7 +101,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                     uploadPreset="jkyytcex"
                   >
                     <Button disabled={isLoading} type="button" secondary>
-                      Change
+                      Update Profile Picture
                     </Button>
                   </CldUploadButton>
                 </div>
@@ -114,7 +114,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
               Cancel
             </Button>
             <Button disabled={isLoading} type="submit">
-              Save
+              Save Changes
             </Button>
           </div>
         </div>

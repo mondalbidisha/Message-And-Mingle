@@ -70,7 +70,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
 
             <div className="mt-10 flex flex-col gap-y-8">
               <Input
-                label="Group name"
+                label="Group Name"
                 id="name"
                 register={register}
                 errors={errors}
@@ -79,7 +79,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
               />
               <Select
                 disabled={isLoading}
-                label="Members"
+                label="Add Members"
                 options={users.map((user) => ({
                   label: user.name,
                   value: user.id,
@@ -103,7 +103,7 @@ const GroupChatModal: React.FC<GroupChatModalProps> = ({
             Cancel
           </Button>
           <Button disabled={isLoading} type="submit">
-            Create
+            Create Group
           </Button>
         </div>
       </form>
