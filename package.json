@@ -1,5 +1,12 @@
 {
+  "name": "message-and-mingle",
+  "version": "1.0.0",
   "private": true,
+  "description": "message-and-mingle",
+  "author": "Bidisha Mondal",
+  "keywords": [
+    "next.js"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
